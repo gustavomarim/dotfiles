@@ -1,0 +1,861 @@
+70f9d1ad651bdbd12fbdc8b026c70b98|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/Test.tsx|5|41|v|typescriptreact
+	initialState
+468cadf83faa4d828a0a7a72f54d1430|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/DateRange.tsx|5|22|V|typescriptreact
+	  const [inicio, setInicio] = useState("");
+5364a6c279f9a14396717152b1b937cd|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/DateRange.tsx|5|1|V|typescriptreact
+	  const [final, setFinal] = useState("");
+cb915a150a8b62ce0939f48b69426901|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/DateRange.tsx|1|36|V|typescriptreact
+	import { useState } from "react";
+3892b148aa885d475d55becf12b723ba|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Contexts/DataContext.tsx|37|4|V|typescriptreact
+	    "https://data.origamid.dev/vendas/"
+80d2eab894b6c0a22aed67e4c752d50e|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/DateInput.tsx|7|21|V|typescriptreact
+	const generalStyle: React.CSSProperties = {
+c1bc57d3406c2c913aca65839f3cb8eb|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Contexts/DataContext.tsx|42|49|v|typescriptreact
+	maxLength
+18b58c3a0e79d6ec9c09825ac6dc6657|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Contexts/DataContext.tsx|42|24|V|typescriptreact
+	    const dd = String(date.getDate() - 5).padStart(2, "0")
+7f50f4e77d2769d4c4dc3e40832d8276|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Contexts/DataContext.tsx|42|1|V|typescriptreact
+	    const dd = String(date.getDate() - 5).padStart(2, "0")
+	   console.log({dd})
+5114649511c98afa32cf7fd8d317bc77|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Contexts/DataContext.tsx|46|3|V|typescriptreact
+	   console.log({dd})
+11f8bbd4838f680fe15a860003adb4a9|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Contexts/DataContext.tsx|49|17|V|typescriptreact
+	    console.log(`${yyyy}-${mm}-${dd}`)
+42e68b3d1ca150293da57a675b5d5ee8|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Contexts/DataContext.tsx|49|29|v|typescriptreact
+	-${dd}`)
+cd05d2d0b815be40dcfeb77dc24d9cd9|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Contexts/DataContext.tsx|44|43|V|typescriptreact
+	    const mm = String(date.getMonth() + 1).padStart(2, "0")
+5fc732311905cb27e82d67f4f6511f7f|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Contexts/DataContext.tsx|42|19|v|typescriptreact
+	date
+ce2d992ee6505d0b81086e45a73b49d5|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Contexts/DataContext.tsx|40|1|v|typescriptreact
+	  function getDate(n: number) {
+	    const date = new Date()
+	    date.setDate(date.getDate() - n)
+	    const dd = String(date.getDate()).padStart(1, "0")
+	
+	    const mm = String(date.getMonth() + 0).padStart(2, "0")
+	    const yyyy = String(date.getFullYear());
+	    return `${yyyy}-${mm}-${dd}`
+	  }
+ec7263e75fc8e089e0bcbf3f33602316|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Contexts/DataContext.tsx|44|1|v|typescriptreact
+	 const [inicio, setInicio] = useState("");
+b7579072ecd3ef4e56ef2e51eb87466c|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/Meses.tsx|5|2|V|typescriptreact
+	    <MesBtn />
+	  
+a2bc815b2c284bf56ee054462ca5b038|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/Meses.tsx|7|2|V|typescriptreact
+	    <MesBtn />
+54aafa917936c3a00e5132aa6b12ca56|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/Header.tsx|10|13|v|typescriptreact
+	ange />
+	      <Meses 
+4c0e0914f8d98725e26f9e1a650a564b|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/Header.tsx|9|10|V|typescriptreact
+	      </div>
+	      <DateR/>
+07541579a5d92cf13bde22ee557a726f|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/Header.tsx|10|10|V|typescriptreact
+	      <DateRange />
+1c489dbe8d9c62d676706d7685cce6c0|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/Header.tsx|11|6|v|typescriptreact
+	/div
+4283cd2d0b5ca490b4f4dd6452f0206f|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/Header.tsx|6|1|V|typescriptreact
+	    <header className="mb">
+	      <div className="mb">
+	        <DateRange />
+	      </div>
+	      <Meses />
+bf4fb56a889794e94c997d70d9bc633b|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/Header.tsx|6|6|V|typescriptreact
+	    <header className="mb">
+	      <div className="mb">
+	        <DateRange />
+	      </div>
+b594e46c607eef1df3ca672992bfc0d3|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/MesBtn.tsx|1|1|V|typescriptreact
+	import React from "react";
+dc2c720cbec0cfd6a15b16ab8eb87570|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/Meses.tsx|7|1|V|typescriptreact
+	      <MesBtn />
+3f6188b5e3798062da630ba91b191f7f|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/Meses.tsx|7|1|V|typescriptreact
+	      <MesBtn />
+	      <MesBtn />
+	    </div>
+142d5f779ef5df9bcd9512dad1b5f48f|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/Meses.tsx|7|1|V|typescriptreact
+	      <MesBtn />
+	      <MesBtn />
+	      <MesBtn />
+578c8f06836368de2843a9d9d603a6e4|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/Meses.tsx|7|10|V|typescriptreact
+	      <MesesBtn n={3} />
+0769450113d246a3d108676b3b543fd9|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/Meses.tsx|11|1|V|typescriptreact
+	export default Meses
+49bc109f311a27377c94a13c2ef9294e|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/Meses.tsx|1|19|V|typescriptreact
+	import React from "eact"
+cb9e4f9e5ee3a0e5ce7140ba7f50c12a|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/Meses.tsx|6|10|V|typescriptreact
+	      <MesBtn n={3} />
+50c811eced7dac8416b948954f4f003b|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/Meses.tsx|6|1|V|typescriptreact
+	      <MesBtn n={-1} />
+a127fd1f86e4ab650f2216f09992afa4|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/Meses.tsx|7|7|V|typescriptreact
+	      
+0cf31b2c283ce3431794586df7b0996d|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/Meses.tsx|8|6|V|typescriptreact
+	    
+40c2e6b7b9837c7991e6b11a5502c29b|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/Meses.tsx|7|1|V|typescriptreact
+	      <MesBtn n={-1} />
+	    
+cae13db0f7c0d361e21eacb996ccac42|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/MesBtn.tsx|1|24|v|typescriptreact
+	n: number
+8fd80267347a08b8f2bfcaabc8dd099e|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/MesBtn.tsx|1|24|v|typescriptreact
+	{ n }: number
+2c7e808c898a599803c01894e3e0a451|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/Meses.tsx|2|1|V|typescriptreact
+	function nomeMes = (n: number) => {
+	 const date = newDate()
+	  console.log(date)
+92d0e0cf98c8d5148ac4a7915d8de275|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/Meses.tsx|5|1|V|typescriptreact
+	  console.log(date.getMonth()() + n);
+1545e945d5c3e7d9fa642d0a57fc8432|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/MesBtn.tsx|6|4|V|typescriptreact
+	     
+7436f942d5ea836cb84f1bb2527d8286|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/MesBtn.tsx|4|17|v|typescriptreact
+	month
+a2222770578256692ebda028a05d2cc2|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/MesBtn.tsx|3|29|V|typescriptreact
+	  console.log("dataAtual", date.getMonth() + n)
+2a7f3ccdda6018230a0e55486267e8bb|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/MesBtn.tsx|8|1|V|typescriptreact
+	  console.log('NomeDoMes', nome)
+4d4eb81be50a3d0ef6a56ccc611ffc4a|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/MesBtn.tsx|19|3|V|typescriptreact
+	  nomeMes(n)
+	  return <button style={}>{nomeMes(n)}</button>;
+de1f438bcd5ae17135f03361381769eb|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/MesBtn.tsx|23|1|V|typescriptreact
+	  nomeMes(n)
+f4cb924ca50fe8724ffc7f162b0431a2|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/MesBtn.tsx|12|1|V|typescriptreact
+	  const date = new Date()
+	  date.setMonth(date.getMonth()+ n )
+	
+	  return new Intl.DateTimeFormat('pt-BR', {
+	    month: 'long'
+	  }).format(date)
+edbcfb9c926e5ee41a5bbfb4d4b75af9|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/MesBtn.tsx|11|1|V|typescriptreact
+	function nomeMes(n: number) {
+	  const date = new Date()
+633457d827c40ed09defa1779bfed962|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/MesBtn.tsx|12|1|V|typescriptreact
+	  const date = new Date()
+	  date.setMonth(date.getMonth()+ n )
+	
+	  return new Intl.DateTimeFormat('pt-BR', {
+	    month: 'long'
+	  }).format(date)
+	}
+3f6c18e1d4446fcbd2fd955bbb65491b|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/MesBtn.tsx|25|1|V|typescriptreact
+	    return new Intl.DateTimeFormat('pt-BR', {
+65a423d1d1de99e8c7b18ee7a3b0018b|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/MesBtn.tsx|25|1|V|typescriptreact
+	      month: 'long'
+a4436960e57209db13a273ebe08ba20b|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/MesBtn.tsx|25|1|V|typescriptreact
+	    }).format(date)
+fe6964f2489972da3c5f605bcfdf515b|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Contexts/DataContext.tsx|33|1|V|typescriptreact
+	function getAnyDaysAgo(n: number) {
+	  const date = new Date();
+	  date.setDate(date.getDate() - n);
+	
+	  const dd = String(date.getDate()).padStart(2, "0");
+	  const mm = String(date.getMonth() + 1).padStart(2, "0");
+	  const yyyy = date.getFullYear();
+	
+	  return `${yyyy}-${mm}-${dd}`;
+	}
+	
+8ced401cc76e3a1da56d037b5196f475|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Contexts/DataContext.tsx|33|1|v|typescriptreact
+	function getAn
+7df4935f4a5a2865191ef74f64df8754|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Contexts/DataContext.tsx|33|1|v|typescriptreact
+	func
+6dd0db5c897fbca8c9f3652c81ae1b57|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Contexts/DataContext.tsx|32|1|V|typescriptreact
+	
+	function getAnyDaysAgo(n: number) {
+	  const date = new Date();
+	  date.setDate(date.getDate() - n);
+	
+	  const dd = String(date.getDate()).padStart(2, "0");
+	  const mm = String(date.getMonth() + 1).padStart(2, "0");
+	  const yyyy = date.getFullYear();
+	
+	  return `${yyyy}-${mm}-${dd}`;
+	}
+	
+d8ee7aec041042b118f312054424fc73|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/MesBtn.tsx|23|28|V|typescriptreact
+	  const date = new Date();
+17f2426b4f775a548be5484997701ba0|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/MesBtn.tsx|23|1|V|typescriptreact
+	  date.setDate(date.getDate() - n);
+d0b5fe5eaea4b806086d0aaf83afde7a|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/MesBtn.tsx|33|15|v|typescriptreact
+	firstDay
+3bf529ef322eeef88b60378f710fd044|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/MesBtn.tsx|34|14|v|typescriptreact
+	lastDay
+dda6b274fb04478e73730b7105ed3a20|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/MesBtn.tsx|33|1|V|typescriptreact
+	    setInicio(formatDate(firstDay))
+	    setFinal(formatDate(lastDay))
+	    
+19582ca4059965a66cd4d723ffa5d100|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/MesBtn.tsx|32|1|V|typescriptreact
+	    const { setInicio, setFinal  } = useData()
+	    setInicio(formatDate(firstDay))
+feed709f10cff01e60055c047b40cf25|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/MesBtn.tsx|32|5|V|typescriptreact
+	    const { setInicio, setFinal  } = useData()
+	  function setMes(n: number){
+b8a7324330fc4af675e181f36096f482|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/MesBtn.tsx|39|5|V|typescriptreact
+	    console.log(firstDay)
+f7e6e7048350b1fb1d954d72e0da9b9e|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/MesBtn.tsx|39|5|V|typescriptreact
+	    console.log(lastDay)
+11815adc5849b7e6037ed4dc2b3d627b|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/MesBtn.tsx|44|1|V|typescriptreact
+	  setMes(n)
+5c203c15bce8878e635606605622409f|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/Meses.tsx|4|3|V|typescriptreact
+	  return (
+	    <div className="flex">
+	      <MesBtn n={1} />
+	      <MesBtn n={2} />
+	      <MesBtn n={3} />
+	    </div>
+	  )
+a97d85ba9bfad0eb8f6ece7966b19813|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/MesBtn.tsx|24|14|v|typescriptreact
+	String(date.getMonth() + 1)
+3c28230de41d029ecb62bdf2809d57db|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/Meses.tsx|4|3|V|typescriptreact
+	  const date = new Date()
+	  const currentMonth = date.getMonth() + 1
+	console.log(currentMonth)
+	  return (
+	    <div className="flex">
+	      <MesBtn n={-2} />
+	      <MesBtn n={-1} />
+	      <MesBtn n={currentMonth} />
+	    </div>
+	  )
+fde29322fbe832ec5c3f0da97db8ba24|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/Meses.tsx|6|10|V|typescriptreact
+	  console.log(currentMonth)
+d5d22227814374174324ca9232675792|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/Meses.tsx|5|10|V|typescriptreact
+	  const currentMonth = date.getMonth() + 1
+81967bea60eceea1270963a1f54686a5|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/Meses.tsx|4|10|V|typescriptreact
+	  const date = new Date()
+8d777f385d3dfec8815d20f7496026dc|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Pages/Resumo.tsx|13|10|v|typescriptreact
+	data
+f07db9a8fc7f39e63ffbefe73577dbce|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Pages/Resumo.tsx|13|12|V|typescriptreact
+	        {'dd'}
+16bf74f76e4aa8fbdb97afc111c56ac9|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Pages/Resumo.tsx|14|22|v|typescriptreact
+	callbackfn
+387dacff4bdd82a149af13fdfbe1291f|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Pages/Resumo.tsx|14|10|v|typescriptreact
+	data.reduce((acc, crr) => {
+	        return acc.preco + crr.preco
+	        },0)
+466cd2888e446d627463fb479bdddd59|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Pages/Resumo.tsx|14|10|v|typescriptreact
+	data.reduce((acc, item) => acc + item.preco)
+55c0405cea92d4cd9590e74d1d5f3c49|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Pages/Resumo.tsx|12|1|V|typescriptreact
+	      <div>
+	        <h2>Vendas</h2>
+	        <span>{data.reduce((acc, item) => acc + item.preco, 0)
+	        .toLocaleString('pt-BR', {
+	        style: 'currency', currency: 'BRL'
+	        })}</span>
+	    </div>
+8383c8a273930c4d4a89bfd56135bf18|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Pages/Resumo.tsx|12|1|V|typescriptreact
+	      <div>
+	        <h2>Vendas</h2>
+a09902a370cf4a0688a6bc1091ca7755|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Pages/Resumo.tsx|12|1|V|typescriptreact
+	      <div>
+	        <h2>Vendas</h2>
+	        <span>{data.reduce((acc, item) => acc + item.preco, 0)
+	        .toLocaleString('pt-BR', {
+	        style: 'currency', currency: 'BRL'
+	        })}</span>
+	    </div>
+	    
+f670ef68565f21a50d96fb2b8746a338|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Pages/Resumo.tsx|23|16|v|typescriptreact
+	predicate
+75abf59b6b4e6503051524805bfb929a|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Pages/Resumo.tsx|23|15|v|typescriptreact
+	(item) => item.status === 'pago'
+c72a420ca391d181d0031e810bc02928|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Pages/Resumo.tsx|20|1|V|typescriptreact
+	    <div className="box">
+	      <h2>Status</h2>
+	      <span>{data
+	      .filter(({status}) => status === 'pago')
+	      .reduce((acc, item) => acc + item.preco, 0)
+	      .toLocaleString('pt-BR', {
+	      style: 'currency', currency: 'BRL'
+	      })}</span>
+	  </div>
+	
+84ddee7518f981d5ec5f9bc5745513bc|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Pages/Resumo.tsx|19|1|V|typescriptreact
+	
+	    <div className="box">
+8fdb3d59640ebcb22e100b73e595d1dd|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Pages/Resumo.tsx|19|1|V|typescriptreact
+	
+	    <div className="box">
+	      <h2>Status</h2>
+	      <span>{data
+	      .filter(({status}) => status === 'pago')
+	      .reduce((acc, item) => acc + item.preco, 0)
+	      .toLocaleString('pt-BR', {
+	      style: 'currency', currency: 'BRL'
+	      })}</span>
+	  </div>
+	
+53358e2f7f8eedaeafb492c4fa2ef601|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Pages/Resumo.tsx|18|1|V|typescriptreact
+	    </div>
+	
+66d70610b684db4b9d2417f6da614a60|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Pages/Resumo.tsx|33|39|v|typescriptreact
+	pago
+71f262d796bed1ab30e8a2d5a8ddee6f|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Pages/Resumo.tsx|42|17|v|typescriptreact
+	bottom
+eb2f690119bb31575fafd3edd8bd3e7b|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Pages/Resumo.tsx|42|17|v|typescriptreact
+	box graficos
+630888638307b67822b1b0194fb65a44|file:///home/gustavodnts/Econverse/Casa-costa-io/store-components/react/context/Promotion/index.tsx|9|47|v|typescriptreact
+	{
+	  promotion: undefined,
+	}
+dd820c359288dea06b921ae269df1b7d|file:///home/gustavodnts/Econverse/Casa-costa-io/store-components/react/components/ProgressiveDiscountPrice/index.tsx|58|7|v|typescriptreact
+	!!finalPriceWithDiscount
+31a1fd140be4bef2d11e121ec9a18a58|file:///home/gustavodnts/Econverse/Casa-costa-io/.git/COMMIT_EDITMSG|1|11|v|gitcommit
+	scope
+0e807f7f4d7a95f5b79e04390658220d|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/App.tsx|13|6|V|typescriptreact
+	    </BrowserRouter>
+8c061034217605cd87c149bb2edb7abf|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/App.tsx|19|12|V|typescriptreact
+	            </Routes>
+f768e697c181d11547f2f4242b770008|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/App.tsx|18|12|V|typescriptreact
+	              
+	            <Resumo />
+bc95dfc14146aa23e43f2ea7af04d310|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/App.tsx|21|14|V|typescriptreact
+	            
+8bd9f50ed39fa01e47de4c0031babd71|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/App.tsx|18|20|V|typescriptreact
+	              <Resumo />
+0f1b020b1816cce602e8b087b6f7708d|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/App.tsx|18|15|V|typescriptreact
+	              <Route path="/" element={}
+be957faf22a17114ee55f18410c4366f|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/App.tsx|10|3|V|typescriptreact
+	  return (
+	    <BrowserRouter>
+	      <DataContextProvider>
+	        <div className="container">
+	          <Sidenav />
+	          <main>
+	            <Header />
+	            <Routes>
+	              <Route path="/" element={}
+	              <Vendas />
+	            </Routes>
+	          </main>
+	        </div>
+	      </DataContextProvider>
+	    </BrowserRouter>
+	  );
+47a9d36f557316d73fe96a802574e1d6|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/App.tsx|18|53|V|typescriptreact
+	              <Vendas />
+cea2ce9ea95ec41bfd1f102ee79834e2|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/App.tsx|19|1|V|typescriptreact
+	              <Route path="/vendas" element={<Vendas />} />
+e7fcf8e49e39af3c66af246fdcf535df|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/App.tsx|20|1|V|typescriptreact
+	             
+23e040ad94ef5c77b38effe2fa30ef7e|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/App.tsx|20|28|v|typescriptreact
+	/vendas
+35e8073685d9cca37da9c4073a129fe6|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/App.tsx|10|3|V|typescriptreact
+	  return (
+	    <BrowserRouter>
+	      <DataContextProvider>
+	        <div className="container">
+	          <Sidenav />
+	          <main>
+	            <Header />
+	            <Routes>
+	              <Route path="/" element={<Resumo />} />
+	              <Route path="/vendas" element={<Vendas />} />
+	              <Route path="/vendas/:id" element={<Vendas />} />
+	            </Routes>
+	          </main>
+	        </div>
+	      </DataContextProvider>
+	    </BrowserRouter>
+	  );
+fee5f5a8b1efa721196477f9383ea239|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Pages/Venda.tsx|5|18|v|typescriptreact
+	#dependencies1
+bb4f5116a5426f878017bc68bf5b26b4|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Pages/Venda.tsx|1|1|V|typescriptreact
+	const Venda = () => {
+91675735c0d770fb1d18637ad8265d5a|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Pages/Venda.tsx|1|1|V|typescriptreact
+	  return <div>Venda</div>
+0d68406c83442f882874f4fc76954e8b|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Pages/Venda.tsx|1|1|V|typescriptreact
+	export default Venda
+9971155733be487021558be983d2c89f|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/Sidenav.tsx|19|12|v|typescriptreact
+	a href=""
+bf5b17fac5c60d745a593b5920372235|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/Header.tsx|11|13|v|typescriptreact
+	effect
+3d3ff413455412208fd9dbf91ffe5a7b|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/Header.tsx|14|25|v|typescriptreact
+	Resumo
+385d3cdb883bdeba854341141b694a56|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/Header.tsx|17|25|v|typescriptreact
+	Vendas
+7f0a4f2716db0a373eeaed591955cd0f|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/Header.tsx|9|1|V|typescriptreact
+	  console.log(location)
+e8fab833730f3a939d0b3812fe043b5d|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/VendaItem.tsx|6|10|v|typescriptreact
+	href
+d5189de027922f81005951e6efe0efd5|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Pages/Venda.tsx|5|15|v|typescriptreact
+	location
+5af0c350e14ad4e51e3f35713e71f9ad|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Pages/Venda.tsx|10|25|V|typescriptreact
+	  console.log(data)
+394e138bb9aca06cfc62692ddb67ed27|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Pages/Venda.tsx|12|7|V|typescriptreact
+	    {data && data.id}
+5e2163d7b6ed899b272eeff7a121ce70|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Pages/Venda.tsx|13|1|V|typescriptreact
+	    <div className="box mb"></div>
+d4f9f94ad71e25efb95f431916ba53fa|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Pages/Venda.tsx|15|1|V|typescriptreact
+	      <div className="box mb">Nome: {data.nome}</div>
+18a99d070c67b40483212eb86f06125a|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Pages/Venda.tsx|20|1|V|typescriptreact
+	    <div className="box mb">Nome: {data.nome}</div>
+b19c3b217916617ccf5ce20a577263e4|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Pages/Venda.tsx|20|29|v|typescriptreact
+	wdNom
+1e86aa78b4d77a668560fcff82b6963a|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Pages/Venda.tsx|20|5|V|typescriptreact
+	    <div className="box mb">{data.nome}</div>
+c0289e98897ab58f231c168b19a67b2e|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Pages/Venda.tsx|20|29|v|typescriptreact
+	Nome
+67309ae418f0365735beb8db8509f09c|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Pages/Venda.tsx|20|5|V|typescriptreact
+	    <div className="box mb">: {data.nome}</div>
+3079895943ea99151156b1c823c0abcc|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Pages/Venda.tsx|21|1|V|typescriptreact
+	    <div className="box mb">Pagamento: {data.nome}</div>
+666ac576aa2666cff323f5d976d592a6|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Pages/Venda.tsx|21|46|v|typescriptreact
+	nome
+a9c57c1396e6f36aba693e83a349dc2b|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/VendaItem.tsx|12|7|V|typescriptreact
+	      <div>{venda.nome}</div>
+94b18d3fb31d0fc958e4e8dfc73aba94|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Pages/Venda.tsx|21|1|V|typescriptreact
+	    <div className="box mb">Pagamento: {data.pagamento}</div>
+f696fdeaeb2ecd5414c8cb1de3cec73c|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Pages/Venda.tsx|22|29|v|typescriptreact
+	Pagamento
+9eb3f68b1df55837553be41f5ffe5b20|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Pages/Venda.tsx|22|41|v|typescriptreact
+	pagamento
+61a9bedf2870596bbebd71e3e7af460b|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Pages/Venda.tsx|23|8|V|typescriptreact
+	    <div className="box mb">Data: {data.data}</div>
+0f78be11ad681d9c37285eded87f359d|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Pages/Venda.tsx|11|43|v|typescriptreact
+	VendaProps
+a833c4e8047d81f414590dfdef018732|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Loading.tsx|11|29|v|typescriptreact
+	Carregando
+3c2b67f722fcb6c12c3a5a7f6b54541b|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Loading.tsx|13|3|V|typescriptreact
+	
+	  return <div style={style}>
+	    <style>      {
+	      
+	      }
+	    </style>
+	    </div>
+13f61d98481f8b867a49068f173ac7e6|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Loading.tsx|17|10|V|typescriptreact
+	      `
+0c4c190cab6e29629268a250c98e2768|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Loading.tsx|17|10|V|typescriptreact
+	      to {
+f81b7ec4262e2c15304ddbff29380c7d|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Loading.tsx|17|7|V|typescriptreact
+	      transform: rotate(360deg)
+e82f3e56d2a6718da3f068e5e6f91343|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Loading.tsx|17|7|V|typescriptreact
+	      }
+8404dff87117eb65e316a6aa7a6171dd|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Loading.tsx|20|1|v|typescriptreact
+	         
+51b308c21d51d4735b1334e1e3104aeb|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Loading.tsx|20|2|v|typescriptreact
+	wrotate
+86633a030330707b7c4d6fc83f388e5f|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Loading.tsx|17|22|V|typescriptreact
+	      {`
+883c050f3666f495eff9cd86689ca733|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Loading.tsx|17|12|V|typescriptreact
+	        @keyframes spin {
+238e909f9b06b64f82fc13e7d617c562|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Loading.tsx|17|12|V|typescriptreact
+	        to {
+c459e55630bf41296baec217bd339e72|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Loading.tsx|17|10|V|typescriptreact
+	          transform: rotate(360deg);
+cb3c0b75b7ad0100e44542e215a3aade|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Loading.tsx|17|9|V|typescriptreact
+	         }
+4e1ddba1c31545ee09fb38ae1fd79346|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Loading.tsx|17|9|V|typescriptreact
+	        }
+22eb98f4826b574e522c8ce3e2bc6795|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Loading.tsx|17|9|V|typescriptreact
+	        `}
+799307155094433caf129bc26589501f|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Loading.tsx|16|8|V|typescriptreact
+	      <style>      {
+e9590322977354aea5d8d19acc4c0ae6|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Loading.tsx|16|8|V|typescriptreact
+	transform: rotate(360deg);
+f38e79ec9c15e69014aaaf20c2f69a77|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Loading.tsx|16|8|V|typescriptreact
+	    </style>
+9973653bcbccee1bc5b133b43978979f|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Loading.tsx|9|15|v|typescriptreact
+	infinite
+c1dc94a133a50ff47afe2b103c8d2615|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Pages/Venda.tsx|20|24|V|typescriptreact
+	        <Loading />
+7b5cfb5e766ada3e723e18f01b811d34|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Pages/Resumo.tsx|52|6|v|typescriptreact
+	t<div className="box mb">G
+e2fa0f6ba17f6bf3d1bf1dbed5a1c5b2|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Pages/Resumo.tsx|52|30|v|typescriptreact
+	Gráficos
+e4bad45309f180dd6b0456df630efcba|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|1|1|V|typescriptreact
+	const GraficoVendas = () => {
+	
+	  return <div>GraficoVendas</div>
+	}
+	
+	export default GraficoVendas
+	
+1d1fd74f73bbbac692432e317f669633|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|3|18|v|typescriptreact
+	GraficoVendas
+9f0ff123abb73522e49e72842178ee73|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|3|34|v|typescriptreact
+	ReactElement 
+cc3dabc43e32754295c65a22287d2517|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|1|1|V|typescriptreact
+	const GraficoVendas = () => {
+75570ba611ea516729cdff51ea3402eb|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|1|1|V|typescriptreact
+	  return <div>GraficoVendas</div>
+6884fc34bee70e573f12a223ebb4045c|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|1|1|V|typescriptreact
+	export default GraficoVendas
+464dcb04347db4795ed51d0518e62d58|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|1|1|V|typescriptreact
+	import { type ReactElement } from "react"
+1918972ee1ea465c30ed1608a9ff1f83|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|1|30|v|typescriptreact
+	(){
+	  return <div>GraficoVendas</div>
+	}
+	
+	import React, {useState} from "react"
+	
+	function
+cfdb28ff1114e7e4f1300117b120f0f8|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|1|9|V|typescriptreact
+	export function GraficoVendas (){
+fcaa8034977bead4d0f67ece1292e5cf|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|1|9|V|typescriptreact
+	  return(
+c4f82fc8a072e0d2cec145961a3c0499|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|1|9|V|typescriptreact
+	    <div>
+72327b3cd398f243870e1dbb1b419dbc|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|1|9|V|typescriptreact
+	      <p>Body</p>
+b082895fab4c56c1aba17dcc672fca3a|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|1|5|V|typescriptreact
+	    </div>
+5c398a6968507454ba18432a85a83f63|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|1|1|V|typescriptreact
+	    )
+86bf5573108f0f50ec5c11d7d65be577|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|7|8|V|typescriptreact
+	export default function GraficoVendas(props: GraficoVendasProps): ReactElement {
+150afc324b7fbc3931023e96d81bd032|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|7|1|v|typescriptreact
+	export 
+7382f9c0ac37e9ab7826ab8f39b7dd9d|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|7|1|v|typescriptreact
+	default 
+aafa5f27fefd6c0632d0b08b35716c7d|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|7|1|v|typescriptreact
+	function 
+389b788990afa51931919d78df539bbe|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|7|50|v|typescriptreact
+	:=> 
+811a42315bf73cf7fd3180b750031acb|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|7|29|V|typescriptreact
+	const GraficoVendas = (props: GraficoVendasProps)=> {
+50fe03ab7bf37089a7e88da9b31ffb3b|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|7|24|v|typescriptreact
+	props
+d74a4f656516e7e918dd4e5f096fe869|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|7|24|v|typescriptreact
+	{data}: GraficoVendasProps
+f929655a877703668f602773a4e6346e|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|3|1|V|typescriptreact
+	export interface GraficoVendasProps {
+	  data: VendaProps[];
+	}
+8043f28ac7fb3d721b9fa4f5435e65c4|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|9|38|v|typescriptreact
+	data.preco
+8c05289152ebbd68197cbaaf80e09367|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|8|8|V|typescriptreact
+	    <LineChart width={400} height={400} data={data}>
+	      <Line type="monotone" dataKey="preco" stroke="var(--color-2)"/>
+	    </LineChart>
+51cc8f8b9e87a650c4df85472a6bcbfb|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|7|1|V|typescriptreact
+	  return <div>
+	  </div>
+ab2a6ca181c71f2e377cec37d03291c2|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|10|22|v|typescriptreact
+	props) 
+4c7f2ae149b90b860c638a067081d619|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|5|1|V|typescriptreact
+	  {
+	    data: '2023-05-03',
+	    pago: 30000,
+	    processando: 3000,
+	    falha: 200
+	  }
+5ecc613150de01b7e6824594426f24f4|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|13|11|v|typescriptreact
+	30000
+e93028bdc1aacdfb3687181f2031765d|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|14|18|v|typescriptreact
+	3000
+c1e43a616ec42c743d37746358404e5d|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|11|1|V|typescriptreact
+	  {
+	    data: '2023-05-04',
+	    pago: 4000,
+	    processando: 1500,
+	    falha: 1000
+	  },
+59d62a6b48f21f3815395adfa456c02c|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|29|8|v|typescriptreact
+	YAxis/
+d3369f164db2fbdfa7b8fd3e342112f1|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|29|9|V|typescriptreact
+	      <XA>
+636f85ecce21fb219e210ea045c6eb4e|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|28|9|V|typescriptreact
+	      <YAxis dataKey="name"/>
+e3aba16a1941bb4eb3be9d57ec323f20|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|29|9|V|typescriptreact
+	      <Line type="monotone" dataKey="pago" stroke="#8884d8" />
+62f6104310438a162f720f76b4f5c0be|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|29|9|V|typescriptreact
+	      <Line type="monotone" dataKey="pv" stroke="#82ca9d" />
+af20ad4539841cadce20b16d4bef4af0|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|1|50|V|typescriptreact
+	import {CartesianGrid, Line, LineChart, Tooltip, XAxis, YAxis} from "recharts";
+2682f2c068498276c0833008c2061603|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|1|57|v|typescriptreact
+	YAxis
+8dd1b1eef4b4be49205cfefe75a1d1b4|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|1|25|v|typescriptreact
+	ine 
+1132b9ae86987c20392d2f7058127d0e|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|31|1|V|typescriptreact
+	      <Line type="monotone" dataKey="" stroke="" yAxisId={0} />
+9ceecac0a5342744e6d9deede9919ddb|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|31|28|v|typescriptreact
+	 dataKey=
+c86af04c14f5ea8766c58cb3f9db0903|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|31|51|v|typescriptreact
+	AxisId
+33de1eb51dc137345062941880fbf7ff|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|17|1|V|typescriptreact
+	  {
+	    data: '2023-06-04',
+	    pago: 4000,
+	    processando: 1500,
+	    falha: 1000
+	  },
+a9b7ba70783b617e9998dc4dd82eb3c5|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|27|12|v|typescriptreact
+	1000
+d42f4851e770aa0f758b01388874f67b|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|33|61|v|typescriptreact
+	margin
+7c4f29407893c334a6cb7a87bf045c0d|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|33|61|v|typescriptreact
+	right
+811882fecd5c7618d7099ebbd39ea254|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|33|61|v|typescriptreact
+	left
+8018ff0915e3fad2c27a1c9dfdbf61b9|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|35|7|V|typescriptreact
+	    </ResponsiveContainer>
+f8daca889255b47c9ce7b8a3e43cf4ed|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|39|54|v|typescriptreact
+	#ff7300
+73bba0ae43931f9c5b5978963579dc3e|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|38|11|V|typescriptreact
+	        <CartesianGrid stroke="#eee" strokeDasharray="5 5" strokeWidth={3}/>
+0c56f9c124c3d64afd48e616ae8aa89d|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|1|11|v|typescriptreact
+	rtesianGrid
+a7be720fe0fb26e1fa1e6d776c12afbe|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|32|4|V|typescriptreact
+	  return dados.reduce((anterior, atual, array) => {
+b84e6d2b42c0d123bf701c4301e3283d|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|32|1|V|typescriptreact
+	  })
+00e4ab4f074e396fa1d5cda2aa09b348|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|34|7|V|typescriptreact
+	      item.data,
+	      item.pago,
+	      item.processando,
+	      item.falha
+18af2a8280c8e88cf0737a983dc70bc8|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|33|1|V|typescriptreact
+	     ite
+ea5a1cbe764918679997181a3ea281d3|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|33|1|V|typescriptreact
+	    }
+9a9c857d18de65cff807f9f967c08929|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|32|4|V|typescriptreact
+	  const dadosProcessados = dados.filter((item: VendaProps) => {
+b732de0626d94346030fca8f08a7db77|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|31|1|V|typescriptreact
+	coddnst processarDados = (dados: VendaProps[]) => {
+b068931cc450442b63f5b3d276ea4297|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|31|11|v|typescriptreact
+	name
+21ffce5b8a6cc8cc6a41448dd69623c9|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|31|26|v|typescriptreact
+	params
+b681feb50dc5744558c933cdf4e0b6d3|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|31|25|v|typescriptreact
+	data:type
+d1742dcc1058cadd9e30a182e22eb297|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|41|1|V|typescriptreact
+	  return [{
+15e03b8529a763d2f04d0ce9055465d8|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|41|1|V|typescriptreact
+	  return [{
+	
+	  }]
+24b10fcd1b00f638f814f8b11078e7cb|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|23|1|V|typescriptreact
+	  {
+	    data: '2023-05-04',
+	    pago: 40000,
+	    processando: 2500,
+	    falha: 2300
+	  },
+8db0a820f6d8bedadbd1f4e1e1c6e28d|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|41|3|V|typescriptreact
+	return []
+3b0e7f9704008ab2c04df1d3caf33f3c|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|50|22|V|typescriptreact
+	  console.log('data', data);
+0896ae86c5c1cb94dc8c3cd43462726c|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|52|5|v|typescriptreact
+	data)
+	
+25accc2283756380788c687f19e9ddd1|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|39|1|V|typescriptreact
+	  console.log("data:", data)
+a0f0bc95016c862498bbad29d1f4d9d4|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|41|33|v|typescriptreact
+	separator
+43d0447549de8d6264e19cf0e468b65d|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|40|36|V|typescriptreact
+	    acc[item.data] = ''
+ec743908b298d4aa396c4a380f0bcbf8|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|46|18|V|typescriptreact
+	    acc[dia] = item.data
+d2e332f2af91927aab52f777f7f140f5|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|41|17|V|typescriptreact
+	    if(acc[dia]) {
+	      acc[dia] += 1
+	    } else {
+	      acc[dia] = {
+	        data: dia,
+	        pago: 0,
+	        falha: 0,
+	        processando: 0
+	      }
+	    }
+940913a54efa71ad9bee9d99a7de93dd|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|41|1|V|typescriptreact
+	    console.log("dia:", dia)
+2702be45b9eab92d21dbd7b5731d650d|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|50|1|V|typescriptreact
+	    else {
+	
+	    }
+e4f6bd7e7f3739df772e72d574773a93|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|50|14|v|typescriptreact
+	"processando"
+b05f5e575bfd31b5d8bf29fc967a86df|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|39|2|V|typescriptreact
+	    const dias = data.reduce((acc: {[key: string]: VendaDia}, item) =>{
+bfd79adf5440e885aa63bba7c7fb882f|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|54|2|V|typescriptreact
+	  console.log("dias:", dias)
+	  return [{
+	    data: '2023-05-04',
+	    pago: 40000,
+	    processando: 2500,
+	    falha: 2300
+05ca3c446c02b533db28a893f539aee5|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|54|1|V|typescriptreact
+	  }]
+b6e9beea32da79e1fbeb1c2572f06b64|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|54|2|V|typescriptreact
+	  console.log("dias:", dias)
+93b34657e889c83e6628ef091809ddf3|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|54|2|V|typescriptreact
+	    data: '2023-05-04',
+dc1a7f2031f1f1dc69f5942a60af5412|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|54|2|V|typescriptreact
+	    pago: 40000,
+c3d99660c269e4fe430e3272269c6e04|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|54|2|V|typescriptreact
+	    processando: 2500,
+5f1cb82940290f82f825accd32121fd3|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|54|2|V|typescriptreact
+	    falha: 2300
+1f449691d22533d87a431a88f408a8cb|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|54|11|v|typescriptreact
+	{
+	    data: '2023-05-04',
+	    pago: 40000,
+	    processando: 2500,
+	    falha: 2300
+	  }
+5a7fe9d4d3026d6eec0f3f9cb6d22763|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|54|11|v|typescriptreact
+	Object.values(dias)
+8965545ba55ee3046457b1d76678f9c7|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|58|28|V|typescriptreact
+	  transformVenda(data)
+848ef38e2e295f032ff6fe5d1ee6b161|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|58|3|V|typescriptreact
+	  const tranformarData = transformVenda(data)
+	  console.log("tranformarData:", tranformarData)
+	
+	  return(
+	    <ResponsiveContainer width={"99%"} height={400}>
+	      <LineChart width={500} height={300} data={dadosGrafico}>
+	        <XAxis dataKey="data" />
+	        <YAxis />
+	        <Tooltip />
+	        <Legend />
+	        <Line type="monotone" dataKey="pago" stroke="#a36af9" strokeWidth={3} />
+	        <Line type="monotone" dataKey="processando" stroke="#fbcb21" strokeWidth={3} />
+	        <Line type="monotone" dataKey="falha" stroke="#000" />
+	      </LineChart>
+	    </ResponsiveContainer>
+	  )
+ebc57f40d70e21ceebb0c561045c7065|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|63|49|v|typescriptreact
+	dadosGrafico
+e1804b61bfccb3d7a2fb5b143c6ec847|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|59|1|V|typescriptreact
+	  console.log("tranformarData:", tranformarData)
+97b602c56b1a8ed0218556f538c06bd0|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|5|3|V|typescriptreact
+	  {
+	    data: '2023-05-03',
+	    pago: 30000,
+	    processando: 3000,
+	    falha: 200
+	  },
+	  {
+	    data: '2023-05-04',
+	    pago: 4000,
+	    processando: 1500,
+	    falha: 1000
+	  },
+	  {
+	    data: '2023-06-04',
+	    pago: 4000,
+	    processando: 1500,
+	    falha: 1000
+	  },
+	  {
+	    data: '2023-05-04',
+	    pago: 40000,
+	    processando: 2500,
+	    falha: 2300
+	  },
+0f637b5d99915cbd6ca1d89c8bf04e8e|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|4|1|V|typescriptreact
+	const dadosGrafico = [
+	
+	]
+b03318c3441e73c3240c87a9fc30216c|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|27|41|v|typescriptreact
+	wkfn
+88f3ca36e9f41cde407a23349e5a99ad|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|27|34|v|typescriptreact
+	callbad
+ea2b2676c28c0db26d39331a336c6b92|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/GraficoVendas.tsx|27|79|v|typescriptreact
+	start
+b4f062b5d06899f6dc7ce8468aae21c2|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Pages/Venda.tsx|10|1|V|typescriptreact
+	  console.log(id);
+8fbc78dab58bb5b82cc36eb940f8b7a7|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Pages/Resumo.tsx|7|3|V|typescriptreact
+	  console.log(data);
+bd9ccca98b1b21c2bedbfe90dc3b441b|file:///home/gustavodnts/Development/Origamid/Projetos/origamid-fintech/src/Components/VendaItem.tsx|5|3|V|typescriptreact
+	  console.log(venda)
+8116f96431722c4f022ca1955f65c05e|file:///home/gustavodnts/Development/search-countries-next.js/src/components/forms/InputText.tsx|42|5|V|typescriptreact
+	        onChange={onChange}
+	      />
+5d2c1319eec51492dee203eddf0c285e|file:///home/gustavodnts/Development/search-countries-next.js/src/components/forms/InputText.tsx|13|3|V|typescriptreact
+	  value: string;
+	  onChange: React.ChangeEventHandler<HTMLInputElement>;
+db6e1412e74d14abfdbc07cd4c3a5337|file:///home/gustavodnts/Development/search-countries-next.js/src/components/forms/InputText.tsx|1|9|V|typescriptreact
+	import React, { ChangeEventHandler } from 'react';
+ba7ea8774e95db13a5eef849ae874dc9|file:///home/gustavodnts/Development/search-countries-next.js/src/components/helper/Error.tsx|7|33|v|typescriptreact
+	ciwerror
+a91bd4f525aaa482def8786fb94c71c8|file:///home/gustavodnts/Development/search-countries-next.js/src/components/helper/Error.tsx|13|6|V|typescriptreact
+	    )}
+99f9dd4ea75899644ed7b1c596c47430|file:///home/gustavodnts/Development/search-countries-next.js/src/components/helper/Error.tsx|8|5|V|typescriptreact
+	  if (!error) return null;
+31828855a9786a3ab50781932134b8d8|file:///home/gustavodnts/Development/search-countries-next.js/src/components/template/BackPageButton.tsx|4|1|V|typescriptreact
+	  function goBack() {
+	    window.history.back();
+	  }
+b2322c61680b49897db52fb6b7324489|file:///home/gustavodnts/Development/search-countries-next.js/src/components/template/BackPageButton.tsx|4|3|V|typescriptreact
+	  const goBackPage = () => {
+	    window.history.back()
+	  }
+	
+	
+	  return (
+	    <button
+	      aria-label="back-page"
+	      className={`
+	        flex gap-3 px-12 py-3 rounded-md mt-16
+	        text-base text-very-dark dark:text-white
+	        bg-white dark:bg-dark-blue
+	        shadow-sm shadow-dark-gray
+	        dark:shadow-sm dark:shadow-very-dark
+	        transition ease-in-out delay-150
+	        hover:scale-x-105 hover:scale-y-105 duration-150
+	      `}
+	      onClick={goBack}
+	    >
+	      {ArrowLeftIcon}
+	      Back
+	    </button>
+	  );
+fc69e556fbf20bb6bf3f19a254df841d|file:///home/gustavodnts/Development/search-countries-next.js/src/components/template/BackPageButton.tsx|21|16|v|typescriptreact
+	goBack
+17564076a15d16eda5d4f52034115219|file:///home/gustavodnts/Development/search-countries-next.js/src/components/template/Content.tsx|17|32|v|typescriptreact
+	ContentProps
+79ef6ccf6d7d56b6de4cb7c79947c27b|file:///home/gustavodnts/Development/search-countries-next.js/src/components/template/Content.tsx|15|1|V|typescriptreact
+	type ContentProps = React.ComponentProps
+647fb6cd5b1c3e9345d85ede628747a3|file:///home/gustavodnts/Development/search-countries-next.js/src/components/template/Content.tsx|15|1|V|typescriptreact
+	
+	export const Content = (props: React.ComponentProps) => {
+c55a3ec6976142b0943b007c6b14a5f0|file:///home/gustavodnts/Development/search-countries-next.js/src/components/template/Content.tsx|11|1|V|typescriptreact
+	interface ContentProps {
+	  children?: JSX.Element | JSX.Element[];
+	}
+7c5af9e711fd310fae0b86210a1c51b7|file:///home/gustavodnts/Development/search-countries-next.js/src/components/template/Content.tsx|11|1|V|typescriptreact
+	type ContentProps = React.ComponentPropskj
+2ad4f90683f073744769c54f5b7f5017|file:///home/gustavodnts/Development/search-countries-next.js/src/components/template/Content.tsx|12|42|v|typescriptreact
+	ComponentProps
+795c4e1ed69c22c19cff3e87acddceae|file:///home/gustavodnts/Development/search-countries-next.js/src/components/template/Content.tsx|155|10|v|typescriptreact
+	props.children
+0e909f9784b12a1be2fc2f84a0efbea0|file:///home/gustavodnts/Development/search-countries-next.js/src/components/template/Content.tsx|67|9|V|typescriptreact
+	          <InputText value={searchedCountry} onChange={filterCountries} />
+	
+cab8111fd0b710a336c898e539090e34|file:///home/gustavodnts/Development/search-countries-next.js/src/components/template/Content.tsx|16|72|v|typescriptreact
+	void
+cb3e03a0494ac48448122d3465d36e08|file:///home/gustavodnts/Development/search-countries-next.js/src/components/template/Content.tsx|16|40|v|typescriptreact
+	ChangeEvent
+991fde4f85d3c13b47bde0f6095932fc|file:///home/gustavodnts/Development/search-countries-next.js/src/components/template/Content.tsx|17|5|V|typescriptreact
+	    target,
+2b6e01ccf09e278addb3f17627b38af2|file:///home/gustavodnts/Development/search-countries-next.js/src/components/template/Content.tsx|16|41|v|typescriptreact
+	ChangeEventHandler
+458a1342b420aed0aeabc29d888233a9|file:///home/gustavodnts/Development/search-countries-next.js/src/components/forms/InputText.tsx|5|31|v|typescriptreact
+	HTMLElement
+50ce2da63bea6a618e7578fa50690040|file:///home/gustavodnts/Development/search-countries-next.js/src/components/forms/InputText.tsx|5|13|v|typescriptreact
+	React
+8617a6c09eb76d9882db8ee31a420654|file:///home/gustavodnts/Development/search-countries-next.js/src/components/helper/Loading.tsx|1|1|v|typescriptreact
+	import 
+6996d5e39f672f7bedcf482919436da7|file:///home/gustavodnts/Development/estrutura-de-dados-js/chapter01/src/hello-world.ts|1|12|V|typescript
+	myName = 1dd
+eb49e0ab8adb786dbd23e600c865e89a|file:///home/gustavodnts/Development/search-countries-next.js/src/components/forms/InputText.tsx|40|4|V|typescriptreact
+	    <label></label>
+c0e9f03846b708c7a017e89760956d06|file:///home/gustavodnts/Development/estrutura-de-dados-js/chapter01/src/17-ES2015-ES6-Modules-node.js|7|9|v|javascript
+	dmyBook 
+b2d0da045b24698303678f0dc735df72|file:///home/gustavodnts/Development/estrutura-de-dados-js/chapter01/src/17-ES2015-ES6-Modules-node.js|7|9|V|javascript
+	const dw= new Book("some title", '200', '19313138');
+82fe5f030b721df88e82ff8efd0c3dcc|file:///home/gustavodnts/Development/estrutura-de-dados-js/chapter01/src/17-ES2015-ES6-Modules-node.js|8|1|v|javascript
+	myBook
+3e7403cc43c6e5ed3456a6fb178a8a1b|file:///home/gustavodnts/Development/estrutura-de-dados-js/chapter02/src/arrays.js|124|1|V|javascript
+	console.log('teste');
+682395ebe77bf738fa91c1d5505a0c5a|file:///home/gustavodnts/Development/estrutura-de-dados-js/chapter02/src/arrays.js|125|44|V|javascript
+	let averageTemDay1 = [72, 75, 79, 81, 81];
+	let averageTemDay2 = [81, 79, 75, 75, 73, 72];
+021a4dfaccdab0165ff1c19475119912|file:///home/gustavodnts/Development/estrutura-de-dados-js/chapter02/src/arrays.js|2|5|v|javascript
+	daysOfWeek 
+79b6d5f08ff28c8fb49b38387c50fb52|file:///home/gustavodnts/Development/estrutura-de-dados-js/chapter02/src/arrays.js|2|4|V|javascript
+	let daysOfWeek = [
+b7b530e169f45c731ed327198d8b690b|file:///home/gustavodnts/Development/estrutura-de-dados-js/chapter02/src/arrays.js|2|1|v|javascript
+	let 

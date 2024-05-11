@@ -1,0 +1,9 @@
+[pull]
+	rebase = true
+[user]
+	email = 66189039+gustavomarim@users.noreply.github.com
+	name = Gustavo Dantas
+[core]
+	editor = nvim
+[url "https://"]
+	insteadOf = git://
